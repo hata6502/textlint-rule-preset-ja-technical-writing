@@ -2621,14 +2621,6 @@ morpheme-match-all@^2.0.5:
   dependencies:
     morpheme-match "^2.0.4"
 
-morpheme-match-textlint@^2.0.3:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/morpheme-match-textlint/-/morpheme-match-textlint-2.0.6.tgz#68921c9ab333c7bc32643991bb19765683d09769"
-  integrity sha512-CX+iQaUjjPMLvas+hZ8zg6Csxx5j1RLaytr+5w6lpBi/oTEV2pv6sgW5Vu3+pNJHbYcaqcuofQZsKocMNUNH8g==
-  dependencies:
-    morpheme-match "^2.0.4"
-    morpheme-match-all "^2.0.5"
-
 morpheme-match@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/morpheme-match/-/morpheme-match-2.0.4.tgz#4ce77a4d6b51c0b33b3ca6d398363c42756b0c99"
@@ -3872,15 +3864,6 @@ textlint-rule-helper@^2.0.0, textlint-rule-helper@^2.1.1:
     "@textlint/types" "^1.1.2"
     structured-source "^3.0.2"
     unist-util-visit "^1.1.0"
-
-textlint-rule-ja-no-abusage@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/textlint-rule-ja-no-abusage/-/textlint-rule-ja-no-abusage-2.0.1.tgz#cd07bea78a2dec65b4128f8d49e104d44f9084d9"
-  integrity sha512-HUAi0vpjoE+8Jl0OzuhgqYlPzGbHjNr7sQuEFQWmrKUF7LdKTdP0dDcmcJ5rbKKLXZ4eV+6Tf2VfWfQrlIRkGg==
-  dependencies:
-    kuromojin "^2.0.0"
-    morpheme-match-textlint "^2.0.3"
-    textlint-rule-prh "^5.2.1"
 
 textlint-rule-ja-no-mixed-period@^2.1.1:
   version "2.1.1"
